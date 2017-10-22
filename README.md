@@ -1,9 +1,12 @@
 # compressed-string-loader
 `in your webpack.conf.js`
 <pre>
-    loaders: [
+loaders: [
+    //...
     {
         test: /\.(html|tpl)$/,
         loader: 'compressed-string-loader'
     }
+    //...
+]
 </pre>
