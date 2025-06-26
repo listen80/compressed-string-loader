@@ -1,0 +1,1101 @@
+<!-- 导航栏 -->
+<header id="navbar" class="fixed w-full top-0 z-50 transition-all duration-300">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+            <div class="flex items-center">
+                <a href="#" class="flex items-center space-x-2">
+                    <div class="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
+                        <i class="fa fa-bolt text-white text-xl"></i>
+                    </div>
+                    <span class="text-xl font-bold text-dark">NexTech<span class="text-primary">Pro</span></span>
+                </a>
+            </div>
+
+            <!-- 桌面导航 -->
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-dark hover:text-primary transition-colors font-medium">功能</a>
+                <a href="#products" class="text-dark hover:text-primary transition-colors font-medium">产品</a>
+                <a href="#pricing" class="text-dark hover:text-primary transition-colors font-medium">价格</a>
+                <a href="#testimonials" class="text-dark hover:text-primary transition-colors font-medium">评价</a>
+                <a href="#faq" class="text-dark hover:text-primary transition-colors font-medium">常见问题</a>
+            </nav>
+
+            <div class="hidden md:flex items-center space-x-4">
+                <a href="#contact"
+                    class="px-5 py-2 rounded-lg text-primary border border-primary hover:bg-primary/5 transition-colors">联系我们</a>
+                <a href="#demo"
+                    class="px-5 py-2 rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20">免费试用</a>
+            </div>
+
+            <!-- 移动端菜单按钮 -->
+            <button id="menu-toggle" class="md:hidden text-dark focus:outline-none">
+                <i class="fa fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- 移动端导航菜单 -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg absolute w-full">
+        <div class="container mx-auto px-4 py-4 flex flex-col space-y-4">
+            <a href="#features" class="text-dark hover:text-primary transition-colors font-medium py-2">功能</a>
+            <a href="#products" class="text-dark hover:text-primary transition-colors font-medium py-2">产品</a>
+            <a href="#pricing" class="text-dark hover:text-primary transition-colors font-medium py-2">价格</a>
+            <a href="#testimonials" class="text-dark hover:text-primary transition-colors font-medium py-2">评价</a>
+            <a href="#faq" class="text-dark hover:text-primary transition-colors font-medium py-2">常见问题</a>
+            <div class="flex flex-col space-y-3 pt-2">
+                <a href="#contact"
+                    class="px-5 py-3 rounded-lg text-center text-primary border border-primary hover:bg-primary/5 transition-colors">联系我们</a>
+                <a href="#demo"
+                    class="px-5 py-3 rounded-lg text-center bg-primary text-white hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20">免费试用</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- 英雄区域 -->
+<section class="pt-32 pb-20 relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-full h-full bg-gradient-to-br from-primary/5 to-primary/10 -z-10"></div>
+    <div class="absolute top-20 right-10 w-40 h-40 bg-secondary/20 rounded-full filter blur-3xl -z-10 animate-float">
+    </div>
+    <div
+        class="absolute bottom-20 left-10 w-60 h-60 bg-primary/20 rounded-full filter blur-3xl -z-10 animate-float-delay-1">
+    </div>
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <div>
+                    <span class="px-4 py-1 rounded-full bg-primary/10 text-primary font-medium text-sm">革命性科技产品</span>
+                </div>
+                <h1 class="text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight">
+                    探索未来科技<br>
+                    <span class="bg-gradient-to-r from-primary to-secondary text-gradient">改变你的生活方式</span>
+                </h1>
+                <p class="text-lg text-muted max-w-lg">
+                    NexTech Pro 带来一系列创新科技产品，融合智能技术与人性化设计，为您打造前所未有的智能生活体验。
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#products"
+                        class="px-8 py-4 bg-primary text-white rounded-lg font-medium hover:bg-primary/90 transition-all shadow-lg shadow-primary/20 transform hover:-translate-y-1">
+                        浏览产品
+                        <i class="fa fa-arrow-right ml-2"></i>
+                    </a>
+                    <a href="#demo"
+                        class="px-8 py-4 bg-white text-dark border border-gray-200 rounded-lg font-medium hover:bg-gray-50 transition-all shadow-md transform hover:-translate-y-1">
+                        预约演示
+                        <i class="fa fa-calendar ml-2"></i>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="flex -space-x-2">
+                        <img src="https://picsum.photos/200/200?random=1" alt="用户头像"
+                            class="w-10 h-10 rounded-full border-2 border-white">
+                        <img src="https://picsum.photos/200/200?random=2" alt="用户头像"
+                            class="w-10 h-10 rounded-full border-2 border-white">
+                        <img src="https://picsum.photos/200/200?random=3" alt="用户头像"
+                            class="w-10 h-10 rounded-full border-2 border-white">
+                        <img src="https://picsum.photos/200/200?random=4" alt="用户头像"
+                            class="w-10 h-10 rounded-full border-2 border-white">
+                    </div>
+                    <div>
+                        <div class="flex items-center">
+                            <div class="flex text-yellow-400">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+                            <span class="ml-2 font-medium">4.8/5</span>
+                        </div>
+                        <p class="text-sm text-muted">来自2,000+满意客户</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div class="relative z-10 animate-float">
+                    <img src="https://picsum.photos/800/800?random=10" alt="NexTech Pro产品展示"
+                        class="rounded-2xl shadow-2xl">
+                    <div class="absolute -bottom-5 -right-5 bg-white p-4 rounded-xl shadow-lg">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
+                                <i class="fa fa-check text-green-500 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold">安全认证</p>
+                                <p class="text-xs text-muted">通过多重安全检测</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 装饰元素 -->
+                <div class="absolute top-1/4 -left-10 w-20 h-20 bg-primary/20 rounded-full -z-10 animate-float-delay-2">
+                </div>
+                <div class="absolute bottom-1/4 -right-10 w-24 h-24 bg-secondary/20 rounded-full -z-10 animate-float">
+                </div>
+            </div>
+        </div>
+
+        <!-- 合作伙伴 -->
+        <div class="mt-20">
+            <p class="text-center text-muted mb-8">值得信赖的合作伙伴</p>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center opacity-70">
+                <div class="flex justify-center">
+                    <img src="https://picsum.photos/200/80?random=5" alt="合作伙伴Logo" class="h-8 object-contain">
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://picsum.photos/200/80?random=6" alt="合作伙伴Logo" class="h-8 object-contain">
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://picsum.photos/200/80?random=7" alt="合作伙伴Logo" class="h-8 object-contain">
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://picsum.photos/200/80?random=8" alt="合作伙伴Logo" class="h-8 object-contain">
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://picsum.photos/200/80?random=9" alt="合作伙伴Logo" class="h-8 object-contain">
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://picsum.photos/200/80?random=10" alt="合作伙伴Logo" class="h-8 object-contain">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 功能区域 -->
+<section id="features" class="py-20 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="px-4 py-1 rounded-full bg-primary/10 text-primary font-medium text-sm">核心功能</span>
+            <h2 class="text-[clamp(1.8rem,4vw,3rem)] font-bold mt-4 mb-6">强大功能，简单操作</h2>
+            <p class="text-lg text-muted">我们的产品集成了最先进的技术，为您提供卓越的用户体验和全方位的功能支持。</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- 功能卡片 1 -->
+            <div class="bg-light rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow group">
+                <div
+                    class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                    <i class="fa fa-brain text-primary text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">人工智能助手</h3>
+                <p class="text-muted mb-6">智能语音助手随时待命，帮您处理日常事务，提供个性化建议和提醒。</p>
+                <a href="#" class="text-primary font-medium inline-flex items-center group-hover:underline">
+                    了解更多
+                    <i class="fa fa-arrow-right ml-2 group-hover:ml-3 transition-all"></i>
+                </a>
+            </div>
+
+            <!-- 功能卡片 2 -->
+            <div class="bg-light rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow group">
+                <div
+                    class="w-14 h-14 rounded-xl bg-secondary/10 flex items-center justify-center mb-6 group-hover:bg-secondary/20 transition-colors">
+                    <i class="fa fa-shield-alt text-secondary text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">安全防护</h3>
+                <p class="text-muted mb-6">多重加密技术保障您的数据安全，实时监控并拦截潜在威胁。</p>
+                <a href="#" class="text-primary font-medium inline-flex items-center group-hover:underline">
+                    了解更多
+                    <i class="fa fa-arrow-right ml-2 group-hover:ml-3 transition-all"></i>
+                </a>
+            </div>
+
+            <!-- 功能卡片 3 -->
+            <div class="bg-light rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow group">
+                <div
+                    class="w-14 h-14 rounded-xl bg-green-100 flex items-center justify-center mb-6 group-hover:bg-green-200 transition-colors">
+                    <i class="fa fa-leaf text-green-600 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">节能环保</h3>
+                <p class="text-muted mb-6">智能能源管理系统，自动调节能耗，降低您的碳足迹和能源开支。</p>
+                <a href="#" class="text-primary font-medium inline-flex items-center group-hover:underline">
+                    了解更多
+                    <i class="fa fa-arrow-right ml-2 group-hover:ml-3 transition-all"></i>
+                </a>
+            </div>
+
+            <!-- 功能卡片 4 -->
+            <div class="bg-light rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow group">
+                <div
+                    class="w-14 h-14 rounded-xl bg-purple-100 flex items-center justify-center mb-6 group-hover:bg-purple-200 transition-colors">
+                    <i class="fa fa-magic text-purple-600 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">智能家居控制</h3>
+                <p class="text-muted mb-6">一站式控制所有智能设备，创建自动化场景，让您的生活更便捷。</p>
+                <a href="#" class="text-primary font-medium inline-flex items-center group-hover:underline">
+                    了解更多
+                    <i class="fa fa-arrow-right ml-2 group-hover:ml-3 transition-all"></i>
+                </a>
+            </div>
+
+            <!-- 功能卡片 5 -->
+            <div class="bg-light rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow group">
+                <div
+                    class="w-14 h-14 rounded-xl bg-pink-100 flex items-center justify-center mb-6 group-hover:bg-pink-200 transition-colors">
+                    <i class="fa fa-heart text-pink-600 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">健康监测</h3>
+                <p class="text-muted mb-6">全方位健康数据监测与分析，为您提供个性化健康建议和预警。</p>
+                <a href="#" class="text-primary font-medium inline-flex items-center group-hover:underline">
+                    了解更多
+                    <i class="fa fa-arrow-right ml-2 group-hover:ml-3 transition-all"></i>
+                </a>
+            </div>
+
+            <!-- 功能卡片 6 -->
+            <div class="bg-light rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow group">
+                <div
+                    class="w-14 h-14 rounded-xl bg-blue-100 flex items-center justify-center mb-6 group-hover:bg-blue-200 transition-colors">
+                    <i class="fa fa-cloud text-blue-600 text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">云端同步</h3>
+                <p class="text-muted mb-6">自动同步您的数据到云端，随时随地访问您的个人设置和内容。</p>
+                <a href="#" class="text-primary font-medium inline-flex items-center group-hover:underline">
+                    了解更多
+                    <i class="fa fa-arrow-right ml-2 group-hover:ml-3 transition-all"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 产品展示 -->
+<section id="products" class="py-20 bg-light">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="px-4 py-1 rounded-full bg-primary/10 text-primary font-medium text-sm">产品系列</span>
+            <h2 class="text-[clamp(1.8rem,4vw,3rem)] font-bold mt-4 mb-6">创新产品，卓越体验</h2>
+            <p class="text-lg text-muted">探索我们的智能产品系列，每一款都代表了科技与美学的完美结合。</p>
+        </div>
+
+        <!-- 产品筛选 -->
+        <div class="flex flex-wrap justify-center gap-4 mb-12">
+            <button class="px-6 py-2 rounded-full bg-primary text-white font-medium">全部产品</button>
+            <button
+                class="px-6 py-2 rounded-full bg-white text-dark font-medium hover:bg-gray-100 transition-colors">智能家居</button>
+            <button
+                class="px-6 py-2 rounded-full bg-white text-dark font-medium hover:bg-gray-100 transition-colors">可穿戴设备</button>
+            <button
+                class="px-6 py-2 rounded-full bg-white text-dark font-medium hover:bg-gray-100 transition-colors">智能健康</button>
+            <button
+                class="px-6 py-2 rounded-full bg-white text-dark font-medium hover:bg-gray-100 transition-colors">智能办公</button>
+        </div>
+
+        <!-- 产品卡片 -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- 产品 1 -->
+            <div
+                class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2">
+                <div class="relative">
+                    <img src="https://picsum.photos/600/400?random=20" alt="NexTech Pro X1智能手表"
+                        class="w-full h-64 object-cover">
+                    <div
+                        class="absolute top-4 right-4 bg-primary text-white text-sm font-medium px-3 py-1 rounded-full">
+                        畅销</div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold">NexTech Pro X1</h3>
+                        <div class="flex text-yellow-400">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <span class="ml-1 text-muted text-sm">4.8</span>
+                        </div>
+                    </div>
+                    <p class="text-muted mb-6">智能手表，配备全面健康监测和智能助手功能，全天候守护您的健康。</p>
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <span class="text-lg font-bold">¥1,299</span>
+                            <span class="text-muted line-through ml-2">¥1,499</span>
+                        </div>
+                        <button
+                            class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors">
+                            <i class="fa fa-shopping-cart mr-2"></i>加入购物车
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 产品 2 -->
+            <div
+                class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2">
+                <div class="relative">
+                    <img src="https://picsum.photos/600/400?random=21" alt="NexHome智能家庭中心"
+                        class="w-full h-64 object-cover">
+                    <div
+                        class="absolute top-4 right-4 bg-secondary text-white text-sm font-medium px-3 py-1 rounded-full">
+                        新品</div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold">NexHome Hub</h3>
+                        <div class="flex text-yellow-400">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span class="ml-1 text-muted text-sm">5.0</span>
+                        </div>
+                    </div>
+                    <p class="text-muted mb-6">智能家居控制中心，支持语音命令和远程控制，一站式管理所有智能设备。</p>
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <span class="text-lg font-bold">¥1,899</span>
+                            <span class="text-muted line-through ml-2">¥2,199</span>
+                        </div>
+                        <button
+                            class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors">
+                            <i class="fa fa-shopping-cart mr-2"></i>加入购物车
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 产品 3 -->
+            <div
+                class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2">
+                <div class="relative">
+                    <img src="https://picsum.photos/600/400?random=22" alt="NexHealth健康监测仪"
+                        class="w-full h-64 object-cover">
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold">NexHealth Monitor</h3>
+                        <div class="flex text-yellow-400">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <span class="ml-1 text-muted text-sm">4.0</span>
+                        </div>
+                    </div>
+                    <p class="text-muted mb-6">全方位健康监测仪，实时监测心率、血压、血氧等多项健康指标。</p>
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <span class="text-lg font-bold">¥999</span>
+                            <span class="text-muted line-through ml-2">¥1,199</span>
+                        </div>
+                        <button
+                            class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors">
+                            <i class="fa fa-shopping-cart mr-2"></i>加入购物车
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 产品 4 -->
+            <div
+                class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2">
+                <div class="relative">
+                    <img src="https://picsum.photos/600/400?random=23" alt="NexTech Pro X2智能眼镜"
+                        class="w-full h-64 object-cover">
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold">NexTech Pro X2</h3>
+                        <div class="flex text-yellow-400">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <span class="ml-1 text-muted text-sm">4.2</span>
+                        </div>
+                    </div>
+                    <p class="text-muted mb-6">增强现实智能眼镜，带来沉浸式体验，支持语音控制和手势操作。</p>
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <span class="text-lg font-bold">¥2,499</span>
+                            <span class="text-muted line-through ml-2">¥2,799</span>
+                        </div>
+                        <button
+                            class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors">
+                            <i class="fa fa-shopping-cart mr-2"></i>加入购物车
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 产品 5 -->
+            <div
+                class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2">
+                <div class="relative">
+                    <img src="https://picsum.photos/600/400?random=24" alt="NexGuard家庭安全系统"
+                        class="w-full h-64 object-cover">
+                    <div
+                        class="absolute top-4 right-4 bg-green-500 text-white text-sm font-medium px-3 py-1 rounded-full">
+                        热销</div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold">NexGuard Home</h3>
+                        <div class="flex text-yellow-400">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <span class="ml-1 text-muted text-sm">4.7</span>
+                        </div>
+                    </div>
+                    <p class="text-muted mb-6">智能家庭安全系统，包含高清摄像头、智能门锁和移动侦测，全方位保护您的家。</p>
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <span class="text-lg font-bold">¥1,599</span>
+                            <span class="text-muted line-through ml-2">¥1,899</span>
+                        </div>
+                        <button
+                            class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors">
+                            <i class="fa fa-shopping-cart mr-2"></i>加入购物车
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 产品 6 -->
+            <div
+                class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2">
+                <div class="relative">
+                    <img src="https://picsum.photos/600/400?random=25" alt="NexSound智能音响"
+                        class="w-full h-64 object-cover">
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold">NexSound</h3>
+                        <div class="flex text-yellow-400">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <span class="ml-1 text-muted text-sm">4.1</span>
+                        </div>
+                    </div>
+                    <p class="text-muted mb-6">高品质智能音响，支持360°环绕声和语音助手，打造沉浸式音乐体验。</p>
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <span class="text-lg font-bold">¥899</span>
+                            <span class="text-muted line-through ml-2">¥1,099</span>
+                        </div>
+                        <button
+                            class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors">
+                            <i class="fa fa-shopping-cart mr-2"></i>加入购物车
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 查看更多按钮 -->
+        <div class="text-center mt-12">
+            <a href="#"
+                class="inline-flex items-center px-8 py-3 bg-white text-primary border border-primary rounded-lg font-medium hover:bg-primary/5 transition-colors shadow-md">
+                查看全部产品
+                <i class="fa fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 产品对比 -->
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="px-4 py-1 rounded-full bg-primary/10 text-primary font-medium text-sm">产品对比</span>
+            <h2 class="text-[clamp(1.8rem,4vw,3rem)] font-bold mt-4 mb-6">选择最适合您的产品</h2>
+            <p class="text-lg text-muted">对比我们的产品特点，找到最符合您需求的智能设备。</p>
+        </div>
+
+        <div class="overflow-x-auto">
+            <table class="w-full min-w-[800px]">
+                <thead>
+                    <tr>
+                        <th class="py-4 px-6 text-left text-muted font-medium">功能</th>
+                        <th class="py-4 px-6 text-center">
+                            <div class="font-bold text-xl">NexTech Pro X1</div>
+                            <div class="text-muted">智能手表</div>
+                            <div class="mt-2 text-primary font-bold">¥1,299</div>
+                        </th>
+                        <th class="py-4 px-6 text-center bg-primary/5 rounded-lg">
+                            <div class="font-bold text-xl">NexHome Hub</div>
+                            <div class="text-muted">智能家居中心</div>
+                            <div class="mt-2 text-primary font-bold">¥1,899</div>
+                        </th>
+                        <th class="py-4 px-6 text-center">
+                            <div class="font-bold text-xl">NexHealth Monitor</div>
+                            <div class="text-muted">健康监测仪</div>
+                            <div class="mt-2 text-primary font-bold">¥999</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">健康监测</td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                        <td class="py-4 px-6 text-center bg-primary/5"><i class="fa fa-check text-green-500"></i>
+                        </td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">智能助手</td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                        <td class="py-4 px-6 text-center bg-primary/5"><i class="fa fa-check text-green-500"></i>
+                        </td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-times text-red-500"></i></td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">智能家居控制</td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                        <td class="py-4 px-6 text-center bg-primary/5"><i class="fa fa-check text-green-500"></i>
+                        </td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-times text-red-500"></i></td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">高清摄像头</td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-times text-red-500"></i></td>
+                        <td class="py-4 px-6 text-center bg-primary/5"><i class="fa fa-check text-green-500"></i>
+                        </td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-times text-red-500"></i></td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">语音控制</td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                        <td class="py-4 px-6 text-center bg-primary/5"><i class="fa fa-check text-green-500"></i>
+                        </td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-times text-red-500"></i></td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">睡眠监测</td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                        <td class="py-4 px-6 text-center bg-primary/5"><i class="fa fa-check text-green-500"></i>
+                        </td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-times text-red-500"></i></td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">心率监测</td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                        <td class="py-4 px-6 text-center bg-primary/5"><i class="fa fa-check text-green-500"></i>
+                        </td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">血氧监测</td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                        <td class="py-4 px-6 text-center bg-primary/5"><i class="fa fa-check text-green-500"></i>
+                        </td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">血压监测</td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                        <td class="py-4 px-6 text-center bg-primary/5"><i class="fa fa-times text-red-500"></i></td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">远程控制</td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-check text-green-500"></i></td>
+                        <td class="py-4 px-6 text-center bg-primary/5"><i class="fa fa-check text-green-500"></i>
+                        </td>
+                        <td class="py-4 px-6 text-center"><i class="fa fa-times text-red-500"></i></td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">防水等级</td>
+                        <td class="py-4 px-6 text-center">IP68</td>
+                        <td class="py-4 px-6 text-center bg-primary/5">IP54</td>
+                        <td class="py-4 px-6 text-center">IPX7</td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">电池续航</td>
+                        <td class="py-4 px-6 text-center">7天</td>
+                        <td class="py-4 px-6 text-center bg-primary/5">24小时</td>
+                        <td class="py-4 px-6 text-center">14天</td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">屏幕尺寸</td>
+                        <td class="py-4 px-6 text-center">1.5英寸</td>
+                        <td class="py-4 px-6 text-center bg-primary/5">4.3英寸</td>
+                        <td class="py-4 px-6 text-center">2.8英寸</td>
+                    </tr>
+                    <tr class="border-t">
+                        <td class="py-4 px-6 text-muted">存储容量</td>
+                        <td class="py-4 px-6 text-center">8GB</td>
+                        <td class="py-4 px-6 text-center bg-primary/5">32GB</td>
+                        <td class="py-4 px-6 text-center">4GB</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- 客户评价 -->
+<section id="testimonials" class="py-20 bg-light">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="px-4 py-1 rounded-full bg-primary/10 text-primary font-medium text-sm">客户反馈</span>
+            <h2 class="text-[clamp(1.8rem,4vw,3rem)] font-bold mt-4 mb-6">用户的真实评价</h2>
+            <p class="text-lg text-muted">听听我们的客户如何评价NexTech Pro的产品和服务。</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- 评价 1 -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+                <div class="flex text-yellow-400 mb-4">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p class="text-muted mb-6">"NexTech Pro
+                    X1智能手表改变了我的生活方式。健康监测功能非常准确，电池续航也超出了我的预期。每天都能看到自己的运动数据和睡眠质量，让我更加关注健康。"</p>
+                <div class="flex items-center">
+                    <img src="https://picsum.photos/100/100?random=30" alt="用户头像" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">李明</h4>
+                        <p class="text-sm text-muted">企业高管</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 评价 2 -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+                <div class="flex text-yellow-400 mb-4">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p class="text-muted mb-6">"NexHome
+                    Hub是我家的智能控制中心，所有设备都能通过它轻松控制。语音命令响应迅速，APP界面也非常直观。最让我惊喜的是它的安全功能，让我外出时也能随时监控家里的情况。"</p>
+                <div class="flex items-center">
+                    <img src="https://picsum.photos/100/100?random=31" alt="用户头像" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">张婷</h4>
+                        <p class="text-sm text-muted">设计师</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 评价 3 -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+                <div class="flex text-yellow-400 mb-4">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="text-muted mb-6">"NexHealth
+                    Monitor帮我及时发现了健康问题。有一次它检测到我的心率异常，并及时提醒我去医院检查，结果发现是早期心脏问题。现在我每天都用它监测各项指标，非常安心。"</p>
+                <div class="flex items-center">
+                    <img src="https://picsum.photos/100/100?random=32" alt="用户头像" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">王建国</h4>
+                        <p class="text-sm text-muted">退休教师</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 评价 4 -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+                <div class="flex text-yellow-400 mb-4">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p class="text-muted mb-6">"NexTech
+                    Pro的产品设计非常出色，无论是外观还是功能都很完美。我特别喜欢X1的防水设计，游泳时也能正常使用。客服团队也很专业，遇到问题都能及时解决。"</p>
+                <div class="flex items-center">
+                    <img src="https://picsum.photos/100/100?random=33" alt="用户头像" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">陈佳</h4>
+                        <p class="text-sm text-muted">健身教练</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 评价 5 -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+                <div class="flex text-yellow-400 mb-4">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p class="text-muted mb-6">
+                    "NexGuard家庭安全系统给了我和家人很大的安全感。安装简单，画质清晰，移动侦测功能也很灵敏。APP操作方便，可以随时随地查看家里的情况。唯一的小缺点是夜视功能可以再加强一些。"</p>
+                <div class="flex items-center">
+                    <img src="https://picsum.photos/100/100?random=34" alt="用户头像" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">赵伟</h4>
+                        <p class="text-sm text-muted">工程师</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 评价 6 -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg">
+                <div class="flex text-yellow-400 mb-4">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p class="text-muted mb-6">
+                    "NexSound的音质超出了我的预期，低音浑厚，高音清晰。语音助手反应灵敏，能准确识别我的指令。唯一遗憾的是电池续航只有8小时，希望未来能有所改进。总体来说是一款非常值得购买的智能音响。"
+                </p>
+                <div class="flex items-center">
+                    <img src="https://picsum.photos/100/100?random=35" alt="用户头像" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold">林小雨</h4>
+                        <p class="text-sm text-muted">音乐爱好者</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 常见问题 -->
+<section id="faq" class="py-20 bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="px-4 py-1 rounded-full bg-primary/10 text-primary font-medium text-sm">常见问题</span>
+            <h2 class="text-[clamp(1.8rem,4vw,3rem)] font-bold mt-4 mb-6">您可能想了解的问题</h2>
+            <p class="text-lg text-muted">我们整理了一些用户常见的问题和解答，希望能帮助您更好地了解我们的产品。</p>
+        </div>
+
+        <div class="max-w-3xl mx-auto space-y-6">
+            <!-- FAQ 项目 1 -->
+            <div class="border border-gray-200 rounded-xl overflow-hidden">
+                <button class="faq-toggle w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                    <h3 class="text-xl font-bold">NexTech Pro产品支持哪些智能语音助手？</h3>
+                    <i class="fa fa-plus text-primary transition-transform"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6">
+                    <p class="text-muted">NexTech Pro产品支持多种主流智能语音助手，包括NexVoice（我们的自有语音助手）、小爱同学、Siri和Google
+                        Assistant。您可以通过设备设置选择您喜欢的语音助手，并通过语音命令控制各种功能和操作。</p>
+                </div>
+            </div>
+
+            <!-- FAQ 项目 2 -->
+            <div class="border border-gray-200 rounded-xl overflow-hidden">
+                <button class="faq-toggle w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                    <h3 class="text-xl font-bold">如何更新NexTech Pro产品的系统软件？</h3>
+                    <i class="fa fa-plus text-primary transition-transform"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6">
+                    <p class="text-muted">NexTech
+                        Pro产品会通过OTA（Over-the-Air）方式自动推送系统更新。您可以在设备的设置菜单中查看是否有可用更新，或开启自动更新功能。对于某些产品，您也可以通过NexTech
+                        Pro官方APP检查并安装更新。建议保持系统软件为最新版本，以获得最佳性能和安全保障。</p>
+                </div>
+            </div>
+
+            <!-- FAQ 项目 3 -->
+            <div class="border border-gray-200 rounded-xl overflow-hidden">
+                <button class="faq-toggle w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                    <h3 class="text-xl font-bold">NexTech Pro产品的保修期是多久？</h3>
+                    <i class="fa fa-plus text-primary transition-transform"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6">
+                    <p class="text-muted">NexTech
+                        Pro产品提供1年的有限保修服务，自购买之日起计算。在此期间，我们将免费为您维修或更换有缺陷的产品或部件。某些产品可能提供更长的保修期，请查看具体产品的保修条款。此外，我们还提供付费的延长保修服务，可通过官方网站或客服了解详情。
+                    </p>
+                </div>
+            </div>
+
+            <!-- FAQ 项目 4 -->
+            <div class="border border-gray-200 rounded-xl overflow-hidden">
+                <button class="faq-toggle w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                    <h3 class="text-xl font-bold">NexTech Pro产品之间是否可以互联互通？</h3>
+                    <i class="fa fa-plus text-primary transition-transform"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6">
+                    <p class="text-muted">是的，NexTech Pro产品支持互联互通，通过NexHome Hub或NexTech Pro
+                        APP，您可以创建自动化场景，实现设备之间的智能联动。例如，当您离家时，系统可以自动关闭灯光、空调和窗帘，同时开启安全监控模式。我们的产品还支持与其他主流智能家居生态系统兼容，如Apple
+                        HomeKit、Google Home和Amazon Alexa。</p>
+                </div>
+            </div>
+
+            <!-- FAQ 项目 5 -->
+            <div class="border border-gray-200 rounded-xl overflow-hidden">
+                <button class="faq-toggle w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                    <h3 class="text-xl font-bold">如何联系NexTech Pro的客户支持团队？</h3>
+                    <i class="fa fa-plus text-primary transition-transform"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6">
+                    <p class="text-muted">您可以通过多种方式联系我们的客户支持团队：</p>
+                    <ul class="list-disc pl-5 mt-3 space-y-2 text-muted">
+                        <li>通过NexTech Pro官方APP中的在线客服功能</li>
+                        <li>发送电子邮件至support@nextechpro.com</li>
+                        <li>拨打客服热线：400-888-8888</li>
+                        <li>访问我们的官方网站，在"支持"页面提交问题</li>
+                    </ul>
+                    <p class="text-muted mt-3">我们的客服团队工作时间为周一至周日 9:00-21:00，将竭诚为您提供帮助。</p>
+                </div>
+            </div>
+
+            <!-- FAQ 项目 6 -->
+            <div class="border border-gray-200 rounded-xl overflow-hidden">
+                <button class="faq-toggle w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                    <h3 class="text-xl font-bold">NexTech Pro产品的数据安全如何保障？</h3>
+                    <i class="fa fa-plus text-primary transition-transform"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6">
+                    <p class="text-muted">NexTech
+                        Pro高度重视用户数据安全和隐私保护。我们采用多重加密技术保护用户数据，包括端到端加密和SSL/TLS加密。所有用户数据仅存储在经过安全认证的服务器上，并且我们严格限制访问权限。我们不会在未经用户明确许可的情况下共享用户数据，并定期进行安全审计和漏洞测试。此外，我们的产品符合GDPR、CCPA等全球主要隐私法规要求。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 订阅区域 -->
+<section class="py-20 bg-primary relative overflow-hidden">
+    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary to-primary/80 -z-10"></div>
+    <div class="absolute top-20 left-10 w-60 h-60 bg-white/10 rounded-full filter blur-3xl -z-10"></div>
+    <div class="absolute bottom-20 right-10 w-40 h-40 bg-white/10 rounded-full filter blur-3xl -z-10"></div>
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-[clamp(1.8rem,4vw,3rem)] font-bold text-white mb-6">订阅我们的通讯</h2>
+            <p class="text-lg text-white/80 mb-8">获取最新产品信息、独家优惠和科技资讯，直接发送到您的邮箱。</p>
+
+            <form class="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
+                <input type="email" placeholder="输入您的邮箱地址"
+                    class="flex-1 px-6 py-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-white/30">
+                <button type="submit"
+                    class="px-8 py-4 bg-white text-primary font-medium rounded-lg hover:bg-white/90 transition-colors shadow-lg">
+                    立即订阅
+                </button>
+            </form>
+
+            <p class="text-white/60 text-sm mt-4">我们尊重您的隐私，绝不会向第三方分享您的信息。</p>
+        </div>
+    </div>
+</section>
+
+<!-- 页脚 -->
+<footer class="bg-dark text-white pt-16 pb-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+            <div class="lg:col-span-2">
+                <div class="flex items-center space-x-2 mb-6">
+                    <div class="w-10 h-10 rounded-lg bg-white flex items-center justify-center">
+                        <i class="fa fa-bolt text-primary text-xl"></i>
+                    </div>
+                    <span class="text-xl font-bold text-white">NexTech<span class="text-primary">Pro</span></span>
+                </div>
+                <p class="text-white/70 mb-6 max-w-md">NexTech Pro致力于通过创新科技改善人们的生活，提供高品质、智能化的产品和服务，让科技更好地服务于人类。</p>
+                <div class="flex space-x-4">
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="#"
+                        class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-colors">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-bold mb-6">产品</h4>
+                <ul class="space-y-4">
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">智能手表</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">智能家居中心</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">健康监测仪</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">智能眼镜</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">家庭安全系统</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">智能音响</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-bold mb-6">支持</h4>
+                <ul class="space-y-4">
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">帮助中心</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">产品文档</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">常见问题</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">联系我们</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">维修服务</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">保修政策</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-lg font-bold mb-6">公司</h4>
+                <ul class="space-y-4">
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">关于我们</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">新闻中心</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">加入我们</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">可持续发展</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">合作伙伴</a></li>
+                    <li><a href="#" class="text-white/70 hover:text-white transition-colors">隐私政策</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="border-t border-white/10 pt-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-white/60 text-sm mb-4 md:mb-0">© 2025 NexTech Pro. 保留所有权利。</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-white/60 text-sm hover:text-white transition-colors">隐私政策</a>
+                    <a href="#" class="text-white/60 text-sm hover:text-white transition-colors">使用条款</a>
+                    <a href="#" class="text-white/60 text-sm hover:text-white transition-colors">Cookie政策</a>
+                    <a href="#" class="text-white/60 text-sm hover:text-white transition-colors">网站地图</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- 返回顶部按钮 -->
+<button id="back-to-top"
+    class="fixed bottom-6 right-6 w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center shadow-lg opacity-0 invisible transition-all z-50">
+    <i class="fa fa-arrow-up"></i>
+</button>
+
+<!-- JavaScript -->
+<script>
+    // 导航栏滚动效果
+    const navbar = document.getElementById('navbar');
+    const backToTop = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 100) {
+            navbar.classList.add('bg-white', 'shadow-md');
+            navbar.classList.remove('bg-transparent');
+
+            backToTop.classList.remove('opacity-0', 'invisible');
+            backToTop.classList.add('opacity-100', 'visible');
+        } else {
+            navbar.classList.remove('bg-white', 'shadow-md');
+            navbar.classList.add('bg-transparent');
+
+            backToTop.classList.add('opacity-0', 'invisible');
+            backToTop.classList.remove('opacity-100', 'visible');
+        }
+    });
+
+    // 返回顶部按钮
+    backToTop.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+
+    // 移动端菜单
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        menuToggle.innerHTML = mobileMenu.classList.contains('hidden')
+            ? '<i class="fa fa-bars text-2xl"></i>'
+            : '<i class="fa fa-times text-2xl"></i>';
+    });
+
+    // 平滑滚动
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                // 关闭移动菜单（如果打开）
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    menuToggle.innerHTML = '<i class="fa fa-bars text-2xl"></i>';
+                }
+
+                // 滚动到目标位置
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // FAQ 切换
+    const faqToggles = document.querySelectorAll('.faq-toggle');
+
+    faqToggles.forEach(toggle => {
+        toggle.addEventListener('click', () => {
+            const content = toggle.nextElementSibling;
+            const icon = toggle.querySelector('i');
+
+            // 切换当前FAQ的显示状态
+            content.classList.toggle('hidden');
+            icon.classList.toggle('fa-plus');
+            icon.classList.toggle('fa-minus');
+            icon.classList.toggle('rotate-45');
+
+            // 关闭其他所有FAQ
+            faqToggles.forEach(otherToggle => {
+                if (otherToggle !== toggle) {
+                    const otherContent = otherToggle.nextElementSibling;
+                    const otherIcon = otherToggle.querySelector('i');
+
+                    otherContent.classList.add('hidden');
+                    otherIcon.classList.add('fa-plus');
+                    otherIcon.classList.remove('fa-minus');
+                    otherIcon.classList.remove('rotate-45');
+                }
+            });
+        });
+    });
+
+    // 图片懒加载
+    document.addEventListener("DOMContentLoaded", function () {
+        const lazyImages = document.querySelectorAll('img');
+
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const image = entry.target;
+                        image.classList.add('opacity-100');
+                        image.classList.remove('opacity-0');
+                        imageObserver.unobserve(image);
+                    }
+                });
+            });
+
+            lazyImages.forEach(image => {
+                imageObserver.observe(image);
+            });
+        }
+    });
+</script>
