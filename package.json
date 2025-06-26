@@ -1,18 +1,32 @@
 {
   "author": {
-    "name": "lijiabin"
+    "name": "listen80"
   },
   "main": "index.js",
   "maintainers": [
     {
-      "email": "13631624455@qq.com",
-      "name": "lijiabin"
+      "email": "13631624455@163.com",
+      "name": "listen80"
     }
   ],
   "name": "compressed-string-loader",
-  "readme": "compressed-string-loader",
+  "readme": "README.md",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "version": "1.0.0"
+  "version": "1.0.1",
+  "keywords": [
+    "loader",
+    "webpack",
+    "string",
+    "compress",
+    "html",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/listen80/compressed-string-loader.git"
+  },
+  "license": "MIT",
+  "description": "A webpack loader that compresses html/tpl string content"
 }
