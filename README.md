@@ -1,9 +1,10 @@
 # compressed-string-loader
 
 ## 安装
-> `npm install compressed-string-loader --save-dev`
-or
-> `yarn add compressed-string-loader --dev`
+`npm install compressed-string-loader --save-dev`  
+or  
+`yarn add compressed-string-loader --dev`  
+
 ## 说明
 
 ### 场景
