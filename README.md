@@ -1,13 +1,14 @@
 # compressed-string-loader
 
 ## 安装
-`npm install compressed-string-loader --save-dev`
+> `npm install compressed-string-loader --save-dev`
 or
-`yarn add compressed-string-loader --dev`
+> `yarn add compressed-string-loader --dev`
 ## 说明
 
 ### 场景
 该 `compressed-string-loader` 主要用于处理 HTML 或 TPL 文件，将其内容压缩后加载到项目中。在一些需要减少文件体积、提高加载性能的场景下非常有用，例如在前端项目里使用模板文件时，通过该 loader 可以压缩模板内容，减少传输的数据量，加快页面加载速度。同时，结合 Webpack 的打包流程，能方便地集成到现有项目中。
+
 ### 示例
 当项目中有大量的 HTML 模板文件时，使用该 loader 可以自动压缩这些模板文件，在 `webpack.conf.js` 里配置好规则后，Webpack 在打包过程中会自动对匹配的 `.html` 或 `.tpl` 文件进行处理。这样在最终生成的打包文件里，模板内容会以压缩后的形式存在，节省资源。
 
@@ -42,4 +43,8 @@ module.exports = {
 ## 测试结果
 `npm run test`
 
+demo.html rate:  65.36%
+footer.html rate:  70.84%
+json.html rate:  82.03%
 > 测试发现大概30%的体积减小（仅供参考）
+> 越是复杂的文件体积压缩效果越明显
